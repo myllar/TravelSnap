@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "TravelSnap",
+    "slug": "TravelSnap",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/iconTrain.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splashTrain.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "bundleIdentifier": "travelsnap-79c3f"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptiveIconTrain.png",
+        "backgroundColor": "#ffffff",
+        "googleServicesFile": "./google-services.json",
+        "bundleIdentifier": "travelsnap-79c3f"
+      },
+      "package": "com.exam.travelsnap"
+    },
+    "web": {
+      "favicon": "./assets/faviconTrain.png"
+    },
+    "plugins": [
+      "@react-native-firebase/app",
+      ["expo-image-picker",
+        {
+          "photosPermission": "Allow $(PRODUCT_NAME) to access your camera",
+          "cameraPermission": "Allow $(PRODUCT_NAME) to access your camera"
+        }],
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "useFrameworks": "static"
+          }
+        }
+      ]
+    ]
+  }
+}

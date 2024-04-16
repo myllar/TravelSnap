@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "228005124327",
+    "project_id": "travelsnap-79c3f",
+    "storage_bucket": "travelsnap-79c3f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:228005124327:android:6ebea0b653c5220356aa42",
+        "android_client_info": {
+          "package_name": "com.exam.travelsnap"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtKeKqDMiX7B055Uv3xKr7ZdM4V17q9Hg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
